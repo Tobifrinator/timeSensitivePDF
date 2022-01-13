@@ -1,18 +1,5 @@
-## Getting Started
+Das ist meine Lösung für die technische Challenge. Die Lösung ist auf Adobe Acrobat ausgelegt.
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Damit die Fälschung optimal funktioniert sollte "Fit to Width Scrolling" (An Fensterbreite anpassen) aktiviert sein, sonst sieht man leider die Ränder vom PDF. Das Signaturpanel lässt sich mit dem Knopf oben rechts öffnen und mit dem X am Signaturpanel selbst wieder schließen.
 
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Das PDF wurde von mir mit der Java-Library PDFBox erstellt. Der Quellcode ist in "src\createMaliciousPDF.java" zu finden.
